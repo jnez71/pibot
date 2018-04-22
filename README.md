@@ -22,6 +22,7 @@ Robot doing robot things with a Raspberry Pi
   - [NumPy](http://www.numpy.org/) [`sudo apt install python-numpy`] (I think it was also necessary to upgrade with PIP)
   - [SciPy](https://www.scipy.org/) [`sudo apt install python-scipy`]
   - [matplotlib](https://matplotlib.org/) [`sudo apt install python-matplotlib`]
+  - [BNO055 Driver](https://github.com/adafruit/Adafruit_Python_BNO055) (git clone and run setup.py)
 - [Firefox](https://www.mozilla.org/en-US/) [`sudo apt install firefox-esr`]
 - Free up some space by uninstalling Libre Office [`sudo apt remove --purge libreoffice*`]
 
