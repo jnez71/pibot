@@ -18,4 +18,5 @@ try:
         time.sleep(0.1)
         GPIO.output(LED, GPIO.LOW)
 except KeyboardInterrupt:
-    GPIO.cleanup()
+    print(" Exiting...")
+GPIO.cleanup()

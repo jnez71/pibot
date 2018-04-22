@@ -21,5 +21,6 @@ try:
         # print(dc)
         time.sleep(0.01)
 except KeyboardInterrupt:
-    pwm.stop()
-    GPIO.cleanup()
+    print(" Exiting...")
+pwm.stop()
+GPIO.cleanup()
